@@ -37,12 +37,12 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/auth/signup">
-              <Button size="lg" className="text-lg px-8 py-3">
+              <Button size="lg" className="text-lg mr-5 px-6 py-3">
                 Start Creating
               </Button>
             </Link>
             <Link href="/demo">
-              <Button variant="outline" size="lg" className="text-lg px-8 py-3 bg-transparent">
+              <Button variant="outline" size="lg" className="text-lg ml-5 px-6 py-3 bg-transparent">
                 View Demo
               </Button>
             </Link>
